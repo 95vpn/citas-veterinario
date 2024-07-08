@@ -1,0 +1,76 @@
+:root{
+    --bg-body: 
+}
+
+body{
+    background-color: rgb(255, 217, 0);
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-izquierdo{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-izquierdo-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-izquierdo-form-campos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+/* --------------------- */
+.alerta {
+    width: 100%;
+}
+
+.alerta-roja{
+    background-color: brown;
+    color: antiquewhite;
+}
+
+.alerta-verde{
+    background-color: greenyellow;
+    color: antiquewhite;
+}
+
+.container-citas{
+    background-color: bisque;
+    width: 100%;
+}
+
+.container-citas-paciente{
+    background-color: blue;
+    color: azure;
+    width: 100%;
+}
+
+.button-editar{
+    background-color: aquamarine;
+    color: rgb(34, 32, 29);
+    width: 100px;
+}
+
+.button-eliminar{
+    background-color: brown;
+    color: azure;
+    width: 100px;
+}
+
+.botones{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 20px;
+}

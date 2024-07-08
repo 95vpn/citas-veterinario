@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Seguimiento Pacientes
+        <span>Veterinaria</span>
+    </h1>
+    <div class="container">
+        <div class="container-izquierdo">
+            <h2>Seguimiento Pacientes</h2>
+            <p>
+                Añade Pacientes y
+                <span>Administrarlos</span>
+            </p>
+            <form id="formulario-cita" class="container-izquierdo-form">
+                <div class="container-izquierdo-form-campos">
+                    <label for="paciente">Nombre Paciente</label>
+                    <input class="paciente" type="text" id="paciente" placeholder="Nombre del paciente" name="paciente">
+                </div>
+                <div class="container-izquierdo-form-campos">
+                    <label for="propietario">Nombre del Propietario</label>
+                    <input class="propietario" type="text" id="propietario" placeholder="Nombre del propietario" name="propietario">
+                </div>
+                <div class="container-izquierdo-form-campos">
+                    <label for="email">Email Contacto</label>
+                    <input class="email" type="email" id="email" placeholder="email" name="email">
+                </div>
+                <div class="container-izquierdo-form-campos">
+                    <label for="fecha">Fecha alta</label>
+                    <input class="fecha" type="date" id="fecha" placeholder="email" name="fecha">
+                </div>
+                <div class="container-izquierdo-form-campos">
+                    <label for="sintomas">Síntomas</label>
+                    <textarea class="sintomas" type="sintomas" id="sintomas" placeholder="sintomas del paciente" name="sintomas"></textarea>
+                </div>
+                <input type="submit" class="submit" value="Registrar Paciente">
+            </form>
+        </div>
+        <div class="container-derecho">
+            <h2>Listado de Pacientes</h2>
+            <p>Administra tus Pacientes y Citas</p>
+
+            <div id="citas">
+                <p>No hay pacientes</p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./js/app.js"></script>
+</body>
+</html>
